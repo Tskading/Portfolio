@@ -1,0 +1,45 @@
+#header {
+
+    display: inline-block;
+    text-align: left;
+    width: fit-content;
+}
+
+header nav {
+    display: inline-block;
+    text-align: right;
+}
+
+.nav-links ul li{
+
+    display: inline-block;
+    text-align: right;
+    margin-left: 25px;
+}
+
+.container-01 h2 {
+
+margin-left: 50px;
+margin-right: 30px;
+
+}
+
+#about-me {
+    border-left: solid 3px;
+}
+
+.projects {
+    display: flex;
+}
+
+#work {
+    border-left: solid 3px;
+}
+
+#contact-me {
+    border-left: solid 3px;
+}
+
+#resume {
+    border-left: solid 3px;
+}
