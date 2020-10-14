@@ -28,36 +28,49 @@ flex-direction: column;
 
 aside {
     display: flex;
+    justify-content: flex-end;
     width: 30%;
+    border-right: 3px;
 }
 
 p {
-    display: block;
+    
     width: 70%;
     border-left: solid 3px;
 }
 
+
 #about-me {
     display: flex;
     flex-direction: row;
-    
+       
 }
+
 
 .projects {
     display: flex;
+    flex-direction: row;
+   
 }
 
 #work {
+    
     border-left: solid 3px;
+    width: 70%;
 }
 
 #contact-me {
     display: flex;
     flex-direction: row;
-    
+       
 }
 
 #resume {
     display: flex;
     flex-direction: row;
+    
+}
+
+.footer {
+    text-align: center;
 }
