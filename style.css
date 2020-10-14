@@ -2,12 +2,14 @@
 
     display: inline-block;
     text-align: left;
-    width: fit-content;
+    
 }
 
 header nav {
     display: inline-block;
     text-align: right;
+    margin-left: 25%;
+   
 }
 
 .nav-links ul li{
@@ -19,13 +21,26 @@ header nav {
 
 .container-01 h2 {
 
-margin-left: 50px;
-margin-right: 30px;
+display: flex;
+flex-direction: column;
 
 }
 
-#about-me {
+aside {
+    display: flex;
+    width: 30%;
+}
+
+p {
+    display: block;
+    width: 70%;
     border-left: solid 3px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .projects {
@@ -37,9 +52,12 @@ margin-right: 30px;
 }
 
 #contact-me {
-    border-left: solid 3px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 #resume {
-    border-left: solid 3px;
+    display: flex;
+    flex-direction: row;
 }
