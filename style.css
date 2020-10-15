@@ -1,14 +1,50 @@
+header {
+
+    height: 100px;
+    background-color: #31343d;
+    color: #92ccce;
+    
+    
+}
+
+.hero {
+    display: block;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://picjumbo.com/wp-content/uploads/abstract-bokeh-through-a-fence_free_stock_photos_picjumbo_IMG_0714-2210x1473.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    font-size: larger;
+
+}
 #header {
 
     display: inline-block;
     text-align: left;
-    
+    background-color: #92ccce;
+    color: #31343d;
+   
+   
 }
+
+a:link {
+    color: #92ccce;
+}
+
+a:visited {
+    color: #92ccce;
+}
+
+
 
 header nav {
     display: inline-block;
     text-align: right;
     margin-left: 25%;
+    font-size: 1.5em;
+    font-style: bold;
+    color: #92ccce;
    
 }
 
@@ -17,7 +53,9 @@ header nav {
     display: inline-block;
     text-align: right;
     margin-left: 25px;
-}
+    
+
+ }
 
 .container-01 h2 {
 
