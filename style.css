@@ -109,8 +109,10 @@ aside {
     width: 88%;
     height: 400px;
     background-image: url("https://cdn.pixabay.com/photo/2016/12/17/14/33/wave-1913559_960_720.jpg");
-    
+    background-size: cover;
 }
+
+
 
 .surf-report {
     background-color: #92ccce;
@@ -122,17 +124,82 @@ aside {
     
 }
 
+.notable-proj {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 .project-b {
     display: flex;
     border: 3px solid #92ccce;
     width: 250px;
+    margin: 5px;
+    flex-direction: row;
+
 }
+
+.b-text {
+    position: absolute;
+    background-color: #92ccce;
+    margin-top: 175px;
+
+}
+
+.project-c {
+    display: flex;
+    border: 3px solid #92ccce;
+    width: 250px;
+    margin: 5px;
+}
+
+
+.c-text {
+    position: absolute;
+    background-color: #92ccce;
+    margin-top: 175px;
+
+}
+
+.project-d {
+    display: flex;
+    border: 3px solid #92ccce;
+    width: 250px;
+    margin: 5px;
+}
+
+
+.d-text {
+    position: absolute;
+    background-color: #92ccce;
+    margin-top: 175px;
+
+}
+
+.project-e {
+    display: flex;
+    border: 3px solid #92ccce;
+    width: 250px;
+    margin: 5px;
+}
+
+
+.e-text {
+    position: absolute;
+    background-color: #92ccce;
+    margin-top: 175px;
+
+}
+
+.project-a:hover, .project-b:hover, .project-c:hover, .project-d:hover, .project-e:hover {
+    opacity: 80%;
+}
+
 
 /* #work a {
     border: 3px solid #92ccce;
     border: ;
     padding: 5px;
-    
 } */
 
 #work p {
@@ -158,4 +225,6 @@ aside {
 
 .footer {
   text-align: center;
+  background-color: #31343d;
+  color: #92ccce;
 }
