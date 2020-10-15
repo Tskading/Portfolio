@@ -1,3 +1,9 @@
+body {
+    background-color: #eeeef7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 header {
 
     height: 100px;
@@ -8,7 +14,7 @@ header {
 }
 
 .hero {
-    display: block;
+    
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://picjumbo.com/wp-content/uploads/abstract-bokeh-through-a-fence_free_stock_photos_picjumbo_IMG_0714-2210x1473.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -16,6 +22,7 @@ header {
     position: relative;
     text-align: right;
     font-size: larger;
+        
 
 }
 #header {
@@ -69,18 +76,23 @@ aside {
     justify-content: flex-end;
     width: 30%;
     border-right: 3px;
+    border-color: solid #92ccce;
+    margin-right: 10px;
+    color: #31343d;
 }
 
-p {
-    
+#about-me p {
+    color: #31343d;
     width: 70%;
-    border-left: solid 3px;
+    padding: 20px;
+    line-height: 1.25;
 }
 
 
 #about-me {
     display: flex;
     flex-direction: row;
+    padding: 40px;
        
 }
 
@@ -88,24 +100,27 @@ p {
 .projects {
     display: flex;
     flex-direction: row;
+    margin-left: 5px;
    
 }
 
 #work {
     
-    border-left: solid 3px;
+    
     width: 70%;
+    
 }
 
 #contact-me {
     display: flex;
     flex-direction: row;
-       
-}
+    padding: 20px;
+    }
 
 #resume {
     display: flex;
     flex-direction: row;
+    padding: 20px;
     
 }
 
