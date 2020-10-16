@@ -1,15 +1,55 @@
+/* styling for whole page */
+
 body {
   background-color: #eeeef7;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/* style for header container */
 header {
   height: 100px;
   background-color: #31343d;
   color: #92ccce;
 }
 
+/* style for TSK in top left corner */
+#header {
+  display: inline-block;
+  text-align: left;
+  background-color: #92ccce;
+  color: #31343d;
+}
+
+/* change nav link color */
+a:link {
+  color: #92ccce;
+}
+
+/* work-around to keep nav color from changing purple.  This can be imporved. */
+a:visited {
+  color: #92ccce;
+}
+
+/* header nav container properties */
+header nav {
+  display: inline-block;
+  text-align: right;
+  margin-left: 25%;
+  font-size: 1.5em;
+  font-style: bold;
+  color: #92ccce;
+}
+
+/* nav link spacing */
+.nav-links ul li {
+  display: inline-block;
+  text-align: right;
+  margin-left: 25px;
+}
+
+/* set image and text box for hero element.  
+Used z-index to keep it behind nav links when screen size changes. */
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://picjumbo.com/wp-content/uploads/abstract-bokeh-through-a-fence_free_stock_photos_picjumbo_IMG_0714-2210x1473.jpg");
@@ -24,6 +64,7 @@ header {
   z-index: -1;
 }
 
+/* hero text styling */
 .hero p {
     background-color: #92ccce;
     position: absolute;
@@ -34,80 +75,56 @@ header {
     padding-top: 10px;
 }
 
-
-#header {
-  display: inline-block;
-  text-align: left;
-  background-color: #92ccce;
-  color: #31343d;
-}
-
-a:link {
-  color: #92ccce;
-}
-
-a:visited {
-  color: #92ccce;
-}
-
-header nav {
-  display: inline-block;
-  text-align: right;
-  margin-left: 25%;
-  font-size: 1.5em;
-  font-style: bold;
-  color: #92ccce;
-}
-
-.nav-links ul li {
-  display: inline-block;
-  text-align: right;
-  margin-left: 25px;
-}
-
-p {
+/*removed this css selector - minimal impact  */
+/* p {
     margin-top: 0px;
-}
+} */
 
+/* adds border to right side of aside h2 titles */
 h2 {
   border-right: #31343d solid 3px;
   padding: 10px;
 }
 
+/* aligns text within the aside - commented out unused element*/
 aside {
   display: flex;
   justify-content: flex-end;
   width: 30%;
   border-right: 3px;
-  border-color: solid #92ccce;
+  /* border-color: solid #92ccce; */
   margin-right: 10px;
   color: #31343d;
 }
 
+/* syling for about me paragraph */
 #about-me p {
   color: #31343d;
   width: 70%;
   padding: 20px;
   line-height: 1.25;
 }
-
+/* enables  flex and sets formatiing for 'about me' section*/
 #about-me {
   display: flex;
   flex-direction: row;
   padding: 0px 40px 20px 40px;
 }
 
+/* style for whole work 'container' */
 .projects {
   display: flex;
   flex-direction: row;
   margin-left: 5px;
 }
 
+/* only minimally adjusts the 'surf report' background image.  
+Leaving in , but need to address with future work. */
 #work {
   width: 70%;
 }
 
-
+/* style for 'project-a' container */
 .project-a {
     
     border: 3px solid #92ccce;
@@ -118,7 +135,7 @@ aside {
 }
 
 
-
+/* text box styling for 'project-a'  */
 .surf-report {
     background-color: #92ccce;
     position: relative;
@@ -129,12 +146,14 @@ aside {
     
 }
 
+/* container that holds all notable projects - sets flex properties for group */
 .notable-proj {
     display: flex;
     flex-wrap: wrap;
     
 }
 
+/* image styling */
 .project-b {
     display: flex;
     border: 3px solid #92ccce;
@@ -144,7 +163,7 @@ aside {
     flex-direction: row;
 
 }
-
+/* text styling for each project */
 .b-text {
     position: absolute;
     background-color: #92ccce;
@@ -152,6 +171,7 @@ aside {
 
 }
 
+/* image styling */
 .project-c {
     display: flex;
     border: 3px solid #92ccce;
@@ -160,7 +180,7 @@ aside {
     margin: 5px;
 }
 
-
+/* text styling for each project */
 .c-text {
     position: absolute;
     background-color: #92ccce;
@@ -168,6 +188,7 @@ aside {
 
 }
 
+/* image styling */
 .project-d {
     display: flex;
     border: 3px solid #92ccce;
@@ -176,7 +197,7 @@ aside {
     margin: 5px;
 }
 
-
+/* text styling for each project */
 .d-text {
     position: absolute;
     background-color: #92ccce;
@@ -184,6 +205,7 @@ aside {
 
 }
 
+/* image styling */
 .project-e {
     display: flex;
     border: 3px solid #92ccce;
@@ -192,7 +214,7 @@ aside {
     margin: 5px;
 }
 
-
+/* text styling for each project */
 .e-text {
     position: absolute;
     background-color: #92ccce;
@@ -200,31 +222,42 @@ aside {
 
 }
 
+/* hover properties for projects */
 .project-a:hover, .project-b:hover, .project-c:hover, .project-d:hover, .project-e:hover {
     opacity: 80%;
 }
 
 
-/* #work a {
+/* Don't know what this is - leaving in as record of trying something...  
+Can delete at later date. 
+
+#work a {
     border: 3px solid #92ccce;
     border: ;
     padding: 5px;
 } */
 
+
+
+/* Removed - no effect on page.
+
 #work p {
     position: relative;
-}
+} */
 
+/* flex and display for 'contact me' elements */
 #contact-me {
   display: flex;
   flex-direction: row;
   padding: 20px;
  }
 
+ /* used to align vertical lines with all elements when in non-mobile mode */
  #contact-me h2 {
    margin-right: 8px;
  }
 
+ /* styling for 'contact me' links */
  .email, .github, .phonenumber, .spotify {
    margin-top: 25px;
    margin-right: 20px;
@@ -233,14 +266,15 @@ aside {
    font-size: larger;
    font-weight: bolder;
  }
-
  
-
+/* styling and flex for rseume section  */
 #resume {
   display: flex;
   flex-direction: row;
   padding: 14px;
 }
+
+/* styling for link */
 #resume a {
     font-size: larger;
     font-weight: bolder;
@@ -248,10 +282,12 @@ aside {
     
 }
 
+/* added to align vertical lines with other elements in non-mobile mode */
 #resume h2 {
   margin-right: 8px;
 }
 
+/* footer styling */
 .footer {
   text-align: center;
   background-color: #31343d;
