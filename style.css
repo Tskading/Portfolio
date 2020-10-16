@@ -69,6 +69,11 @@ p {
     margin-top: 0px;
 }
 
+h2 {
+  border-right: #31343d solid 3px;
+  padding: 10px;
+}
+
 aside {
   display: flex;
   justify-content: flex-end;
@@ -134,6 +139,7 @@ aside {
     display: flex;
     border: 3px solid #92ccce;
     width: 250px;
+    height: 250px;
     margin: 5px;
     flex-direction: row;
 
@@ -150,6 +156,7 @@ aside {
     display: flex;
     border: 3px solid #92ccce;
     width: 250px;
+    height: 250px;
     margin: 5px;
 }
 
@@ -165,6 +172,7 @@ aside {
     display: flex;
     border: 3px solid #92ccce;
     width: 250px;
+    height: 250px;
     margin: 5px;
 }
 
@@ -180,6 +188,7 @@ aside {
     display: flex;
     border: 3px solid #92ccce;
     width: 250px;
+    height: 250px;
     margin: 5px;
 }
 
@@ -210,17 +219,37 @@ aside {
   display: flex;
   flex-direction: row;
   padding: 20px;
-}
+ }
+
+ #contact-me h2 {
+   margin-right: 8px;
+ }
+
+ .email, .github, .phonenumber, .spotify {
+   margin-top: 25px;
+   margin-right: 20px;
+   flex-wrap: wrap;
+   color: #31343d;
+   font-size: larger;
+   font-weight: bolder;
+ }
+
+ 
 
 #resume {
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 14px;
 }
 #resume a {
     font-size: larger;
-    margin-top: 20px;
-    padding-left: 14px ;
+    font-weight: bolder;
+    margin-top: 33px;
+    
+}
+
+#resume h2 {
+  margin-right: 8px;
 }
 
 .footer {
