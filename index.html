@@ -2,78 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+    <!-- need to insert a reset file.  Forgot to insert at start. -->
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
+
   <body>
 
-    
+    <!-- header and nav links -->
     <header>
       <h1 id="header">Thomas Samuel Kading</h1>
 
       <nav class="nav-links">
         <ul>
+
           <li>
             <a href="#about-me">About Me</a>
           </li>
+
           <li>
             <a href="#work">Work</a>
           </li>
+
           <li>
             <a href="#contact-me">Contact Me</a>
           </li>
+
           <li>
             <a href="#resume">Resume</a>
           </li>
+
         </ul>
       </nav>
     </header>
 
+    <!-- hero image and text image -->
     <div class="hero">
       <p>Look at me, I'm unique and interesting!</p>
     </div>
 
+    <!-- main content -->
     <main>
+
+      <!-- about me container-->
       <section id="about-me">
+
         <aside>
           <h2>About Me</h2>
         </aside>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
-          eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
-          bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis
-          tincidunt laoreet ex, in pretium orci vestibulum eget. Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos. Duis pharetra luctus lacus ut vestibulum. Maecenas ipsum
-          lacus, lacinia quis posuere ut, pulvinar vitae dolor. Integer eu nibh
-          at nisi ullamcorper sagittis id vel leo. Integer feugiat faucibus
-          libero, at maximus nisl suscipit posuere. Morbi nec enim nunc.
-          Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit
-          convallis. Cras pharetra mi tristique sapien vestibulum lobortis. Nam
-          eget bibendum metus, non dictum mauris. Nulla at tellus sagittis,
-          viverra est a, bibendum metus.
-        </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl
+            eros, pulvinar facilisis justo mollis, auctor consequat urna. Morbi a
+            bibendum metus. Donec scelerisque sollicitudin enim eu venenatis. Duis
+            tincidunt laoreet ex, in pretium orci vestibulum eget. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos. Duis pharetra luctus lacus ut vestibulum. Maecenas ipsum
+            lacus, lacinia quis posuere ut, pulvinar vitae dolor. Integer eu nibh
+            at nisi ullamcorper sagittis id vel leo. Integer feugiat faucibus
+            libero, at maximus nisl suscipit posuere. Morbi nec enim nunc.
+            Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit
+            convallis. Cras pharetra mi tristique sapien vestibulum lobortis. Nam
+            eget bibendum metus, non dictum mauris. Nulla at tellus sagittis,
+            viverra est a, bibendum metus.
+          </p>
       </section>
 
+      <!-- 'projects' is class for whole 'work' container -->
       <section class="projects">
+
         <aside>
           <h2>Work</h2>
         </aside>
 
-        <div id="work">
+          <!-- #work holds all individual project divs -->
+          <div id="work">
+            <!-- project-a as own container to make more impactful from other projects -->
+            <div class="project-a">
+              <!-- placeholder for future project -->
+              <a href="#"></a>
 
-          <div class="project-a">
-
-            <a href="#"></a>
-
-          <div class="surf-report">Surf Report <br />Project A</div>
+            <div class="surf-report">Surf Report <br />Project A</div>
 
           </div>
-
+                <!-- holds the other notable project divs -->
                 <div class="notable-proj">
 
+                        <!-- placeholder format for future projects -->
                         <div class="project-b">
 
                           <a href="https://placeholder.com"
@@ -96,9 +112,7 @@
                             Project C <br /> Subtitle
                           </div>
                           
-
                         </div>
-
 
                         <div class="project-d">
 
@@ -110,17 +124,17 @@
                             Project D <br /> Subtitle
                           </div>
                           
-
                         </div>
 
                         <div class="project-e">
-                        <a href="https://placeholder.com"
-                          ><img src="https://via.placeholder.com/250"
-                        /></a>
 
-                        <div class="e-text">
-                          Project E <br /> Subtitle
-                        </div>
+                          <a href="https://placeholder.com"
+                            ><img src="https://via.placeholder.com/250"
+                          /></a>
+
+                          <div class="e-text">
+                            Project E <br /> Subtitle
+                          </div>
 
                         </div>
 
@@ -128,11 +142,14 @@
         </div>
       </section>
 
+      <!-- 'contact-me' container -->
       <section id="contact-me">
+
         <aside>
           <h2>Contact Me</h2>
         </aside>
 
+            <!-- individual divs for different contact links -->
             <div class="email">
                   <a href="mailto: tskading@gmail.com?subject = Introduction = Message">Tskading@gmail.com</a>
             </div>
@@ -150,16 +167,25 @@
             </div>
       </section>
 
+      <!-- resume container -->
       <section id="resume">
+
         <aside>
           <h2>Resume</h2>
         </aside>
+
+        <!-- link to resume -->
         <a href="ThomasKadingResume2017.pdf">Resume</a>
       </section>
+
     </main>
 
+    <!-- footer container -->
     <footer class="footer">
+
+      <!-- footer template with charachters -->
       <h2>Made with &#564; &#559; &#957; &#949; by Thomas Samuel Kading</h2>
+
     </footer>
   </body>
 </html>
