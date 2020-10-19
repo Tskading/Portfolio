@@ -257,6 +257,11 @@ Can delete at later date.
    margin-right: 8px;
  }
 
+ .contact-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
  /* styling for 'contact me' links */
  .email, .github, .phonenumber, .spotify {
    margin-top: 25px;
