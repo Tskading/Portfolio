@@ -68,17 +68,14 @@ Used z-index to keep it behind nav links when screen size changes. */
 .hero p {
     background-color: #92ccce;
     position: absolute;
-    top: 247px;
+    top: 164px;
     right: 0px;
     width: 215px;
-    height: 51px;
+    height: 99px;
     padding-top: 10px;
+    padding-right: 10px;
 }
 
-/*removed this css selector - minimal impact  */
-/* p {
-    margin-top: 0px;
-} */
 
 /* adds border to right side of aside h2 titles */
 h2 {
@@ -92,7 +89,6 @@ aside {
   justify-content: flex-end;
   width: 30%;
   border-right: 3px;
-  /* border-color: solid #92ccce; */
   margin-right: 10px;
   color: #31343d;
 }
@@ -104,7 +100,7 @@ aside {
   padding: 20px;
   line-height: 1.25;
 }
-/* enables  flex and sets formatiing for 'about me' section*/
+/* enables  flex and sets formating for 'about me' section*/
 #about-me {
   display: flex;
   flex-direction: row;
@@ -116,6 +112,18 @@ aside {
   display: flex;
   flex-direction: row;
   margin-left: 5px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+#mainProj {
+width: 100%;
+height: 400px;
+object-fit: cover;
 }
 
 /* only minimally adjusts the 'surf report' background image.  
@@ -130,20 +138,22 @@ Leaving in , but need to address with future work. */
     border: 3px solid #92ccce;
     width: 88%;
     height: 400px;
-    background-image: url("https://cdn.pixabay.com/photo/2016/12/17/14/33/wave-1913559_960_720.jpg");
-    background-size: cover;
+    /* background-image: url("images\gamesScrnSht.png"); */
+    /* background: cover; */
 }
 
 
 /* text box styling for 'project-a'  */
-.surf-report {
+.main-proj {
     background-color: #92ccce;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     width: 100px;
     height: 51px;
     padding-top: 10px;
-    margin-top: 300px
-    
+    padding-right: 10px;
+    margin-top: -75px;
 }
 
 /* container that holds all notable projects - sets flex properties for group */
@@ -161,13 +171,16 @@ Leaving in , but need to address with future work. */
     height: 250px;
     margin: 5px;
     flex-direction: row;
-
 }
 /* text styling for each project */
 .b-text {
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -250px;
 
 }
 
@@ -185,6 +198,10 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -250px;
 
 }
 
@@ -202,6 +219,10 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -250px;
 
 }
 
@@ -219,31 +240,22 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: -250px;
 
+}
+
+.main-proj:hover, .b-text:hover, .c-text:hover, .d-text:hover, .e-text:hover {
+  background-color: #eeeef7;
+  cursor: pointer;
 }
 
 /* hover properties for projects */
 .project-a:hover, .project-b:hover, .project-c:hover, .project-d:hover, .project-e:hover {
     opacity: 80%;
 }
-
-
-/* Don't know what this is - leaving in as record of trying something...  
-Can delete at later date. 
-
-#work a {
-    border: 3px solid #92ccce;
-    border: ;
-    padding: 5px;
-} */
-
-
-
-/* Removed - no effect on page.
-
-#work p {
-    position: relative;
-} */
 
 /* flex and display for 'contact me' elements */
 #contact-me {
@@ -263,7 +275,7 @@ Can delete at later date.
  }
 
  /* styling for 'contact me' links */
- .email, .github, .phonenumber, .spotify {
+ .email, .github, .phonenumber, .spotify, .linkedIn {
    margin-top: 25px;
    margin-right: 20px;
    flex-wrap: wrap;
