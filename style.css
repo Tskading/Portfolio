@@ -172,6 +172,7 @@ Leaving in , but need to address with future work. */
     margin: 5px;
     flex-direction: row;
 }
+
 /* text styling for each project */
 .b-text {
     position: absolute;
@@ -181,7 +182,6 @@ Leaving in , but need to address with future work. */
     padding-right: 10px;
     padding-bottom: 10px;
     margin-left: -250px;
-
 }
 
 /* image styling */
@@ -202,7 +202,6 @@ Leaving in , but need to address with future work. */
     padding-right: 10px;
     padding-bottom: 10px;
     margin-left: -250px;
-
 }
 
 /* image styling */
@@ -223,7 +222,6 @@ Leaving in , but need to address with future work. */
     padding-right: 10px;
     padding-bottom: 10px;
     margin-left: -250px;
-
 }
 
 /* image styling */
@@ -244,7 +242,6 @@ Leaving in , but need to address with future work. */
     padding-right: 10px;
     padding-bottom: 10px;
     margin-left: -250px;
-
 }
 
 .main-proj:hover, .b-text:hover, .c-text:hover, .d-text:hover, .e-text:hover {
