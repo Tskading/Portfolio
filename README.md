@@ -7,7 +7,7 @@ My portfolio page utilizes html and css to create a one stop page with all of th
 # Screenshots and Live Page Link
 [This will take you to my live Portfolio page if you click on it.](https://tskading.github.io/Portfolio/)
 
-![Mobile Portfolio 1/2](images\livePageMobileTop.png) 
-![Mobile Portfolio 2/2](images\livePageMobileBottom.png)
-![Desktop Portfolio 1/2](images\livePageTop.png)
-![Desktop Portfolio 2/2](images\livePageBottom.png)
+![Mobile Portfolio 1/2](images/livePageMobileTop.png) 
+![Mobile Portfolio 2/2](images/livePageMobileBottom.png)
+![Desktop Portfolio 1/2](images/livePageTop.png)
+![Desktop Portfolio 2/2](images/livePageBottom.png)
