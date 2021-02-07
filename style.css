@@ -21,6 +21,10 @@ header {
   color: #31343d;
 }
 
+.asideTitle {
+  width: 200px;
+}
+
 /* change nav link color */
 a:link {
   color: #92ccce;
@@ -52,7 +56,7 @@ header nav {
 Used z-index to keep it behind nav links when screen size changes. */
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://picjumbo.com/wp-content/uploads/abstract-bokeh-through-a-fence_free_stock_photos_picjumbo_IMG_0714-2210x1473.jpg");
+    url("https://images.pexels.com/photos/897651/pexels-photo-897651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,72 +75,67 @@ Used z-index to keep it behind nav links when screen size changes. */
     top: 164px;
     right: 0px;
     width: 215px;
-    height: 99px;
+    height: 127px;
     padding-top: 10px;
     padding-right: 10px;
 }
 
 
 /* adds border to right side of aside h2 titles */
-h2 {
-  border-right: #31343d solid 3px;
+.asideBar {
+  border-left: #31343d solid 3px;
   padding: 10px;
 }
 
 /* aligns text within the aside - commented out unused element*/
 aside {
-  display: flex;
-  justify-content: flex-end;
-  width: 30%;
-  border-right: 3px;
-  margin-right: 10px;
+  /* display: flex; */
+  width: 100%;
+  /* border-right: 3px;
+  margin-right: 10px; */
   color: #31343d;
 }
+
+/* .workCont {
+  padding: 0px 40px 20px 40px;
+} */
 
 /* syling for about me paragraph */
 #about-me p {
   color: #31343d;
-  width: 70%;
-  padding: 20px;
   line-height: 1.25;
 }
 /* enables  flex and sets formating for 'about me' section*/
 #about-me {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
-  padding: 0px 40px 20px 40px;
+  /* padding: 0px 40px 20px 40px; */
 }
 
 /* style for whole work 'container' */
 .projects {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   margin-left: 5px;
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  width: 244px;
+  height: 244px;
   object-fit: cover;
 }
 
 #mainProj {
 width: 100%;
-height: 400px;
+height: 394px;
 object-fit: cover;
-}
-
-/* only minimally adjusts the 'surf report' background image.  
-Leaving in , but need to address with future work. */
-#work {
-  width: 70%;
 }
 
 /* style for 'project-a' container */
 .project-a {
     
     border: 3px solid #92ccce;
-    width: 88%;
+    /* width: 88%; */
     height: 400px;
     /* background-image: url("images\gamesScrnSht.png"); */
     /* background: cover; */
@@ -149,8 +148,6 @@ Leaving in , but need to address with future work. */
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    width: 100px;
-    height: 51px;
     padding-top: 10px;
     padding-right: 10px;
     margin-top: -75px;
@@ -178,10 +175,10 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: -250px;
+    padding-bottom: 6px;
+    margin-left: -243px;
 }
 
 /* image styling */
@@ -198,10 +195,10 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: -250px;
+    padding-bottom: 6px;
+    margin-left: -243px;
 }
 
 /* image styling */
@@ -218,10 +215,10 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: -250px;
+    padding-bottom: 6px;
+    margin-left: -243px;
 }
 
 /* image styling */
@@ -238,10 +235,10 @@ Leaving in , but need to address with future work. */
     position: absolute;
     background-color: #92ccce;
     margin-top: 175px;
-    padding-top: 10px;
+    padding-top: 1px;
     padding-right: 10px;
-    padding-bottom: 10px;
-    margin-left: -250px;
+    padding-bottom: 6px;
+    margin-left: -243px;
 }
 
 .main-proj:hover, .b-text:hover, .c-text:hover, .d-text:hover, .e-text:hover {
@@ -256,14 +253,14 @@ Leaving in , but need to address with future work. */
 
 /* flex and display for 'contact me' elements */
 #contact-me {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
-  padding: 20px;
+  /* padding: 20px; */
  }
 
  /* used to align vertical lines with all elements when in non-mobile mode */
  #contact-me h2 {
-   margin-right: 8px;
+   /* margin-right: 8px; */
  }
 
  .contact-container {
@@ -283,9 +280,9 @@ Leaving in , but need to address with future work. */
  
 /* styling and flex for rseume section  */
 #resume {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
-  padding: 14px;
+  /* padding: 14px; */
 }
 
 /* styling for link */

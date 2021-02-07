@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- need to insert a reset file.  Forgot to insert at start. -->
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
     <title>Portfolio</title>
   </head>
 
@@ -36,159 +43,201 @@
 
     <!-- hero image and text image -->
     <div class="hero">
-      <p>If you only focus on the fence, what lies beyond will always seem out of focus.</p>
+      <p>
+        If you only focus on the fence, what lies beyond will always seem out of
+        focus.
+      </p>
     </div>
 
     <!-- main content -->
-    <main>
-      <!-- about me container-->
-      <section id="about-me">
-        <aside>
-          <h2>About Me</h2>
-        </aside>
-
-        <p>
-          Full-Stack Web Developer embracing a passion for environmental science
-          and modern web technology to build a more accessible understanding of
-          the natural world. Proven background in Arc GIS leveraging my acquired
-          knowledge in Full-Stack Web Development from the University of
-          Washington, with modern technologies like JavaScript, CSS, React.js,
-          and more. I have created a functional password generator, a daily
-          planner, and worked collaboratively to build a dynamic web-page
-          utilizing JavaScript Ajax to provide multiple results for video game
-          searches. I am equipped with managing complex challenges in a dynamic
-          work environment to follow through with a formulated plan to drive
-          success.
-        </p>
-      </section>
+    <main class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- about me container-->
+          <section id="about-me">
+            <div class="row mt-4">
+              <div class="col-sm-2">
+                <aside class="text-left">
+                  <h2 class="asideTitle">About Me</h2>
+                </aside>
+              </div>
+              <div class="col-sm-10">
+                <p class="asideBar ">
+                  Full-Stack Web Developer embracing a passion for environmental
+                  science and modern web technology to build a more accessible
+                  understanding of the natural world. Proven background in Arc
+                  GIS leveraging my acquired knowledge in Full-Stack Web
+                  Development from the University of Washington, with modern
+                  technologies like JavaScript, NoSQL, React.js, and more. I
+                  have created a functional password generator, a daily planner,
+                  and worked collaboratively to build a dynamic web-page
+                  utilizing JavaScript Ajax to provide multiple results for
+                  video game searches. I am equipped with managing complex
+                  challenges in a dynamic work environment to follow through
+                  with a formulated plan to drive success.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       <!-- 'projects' is class for whole 'work' container -->
-      <section class="projects">
-        <aside>
-          <h2>Work</h2>
-        </aside>
+      <div class="row">
+        <div class=" workCont col-sm-12">
+          <section class="projects">
+            <div class="row mt-4">
+              <div class="col-sm-2">
+                <aside>
+                  <h2 class="asideTitle">Work</h2>
+                </aside>
+              </div>
+              <div class="col-sm-10">
+                <div class="asideBar">
+                <!-- #work holds all individual project divs -->
+                <div id="work">
+                  <!-- project-a as own container to make more impactful from other projects -->
+                  <div class="project-a">
+                    <!-- placeholder for future project -->
+                    <a href="http://song-birdie.herokuapp.com/">
+                      <img
+                        id="mainProj"
+                        src="images\SBsmTxtWithJournal10secPng.png"
+                      />
+                    </a>
+                    <a href="https://github.com/Bryson-Palmer/song-bird">
+                      <button class="main-proj">
+                        SongBirdie:<br />
+                        Collaboration
+                      </button>
+                    </a>
+                  </div>
+                  <!-- holds the other notable project divs -->
+                  <div class="notable-proj">
+                    <!-- placeholder format for future projects -->
+                    <div class="project-b">
+                      <a href="https://tskading.github.io/Password-Generator/"
+                        ><img src="images\passwordGenerator.png"
+                      /></a>
 
-        <!-- #work holds all individual project divs -->
-        <div id="work">
-          <!-- project-a as own container to make more impactful from other projects -->
-          <div class="project-a">
-            <!-- placeholder for future project -->
-            <a href="http://song-birdie.herokuapp.com/">
-              <img id="mainProj" src="images\SBsmTxtWithJournal10secPng.png" />
-            </a>
-            <a href="https://github.com/Bryson-Palmer/song-bird">
-                <button class="main-proj" >
-                  SongBirdie:<br />
-                  Collaboration
-                </button>
-            </a>
-            
-          </div>
-          <!-- holds the other notable project divs -->
-          <div class="notable-proj">
-            <!-- placeholder format for future projects -->
-            <div class="project-b">
-              <a href="https://tskading.github.io/Password-Generator/"
-                ><img src="images\passwordGenerator.png"
-              /></a>
+                      <a href="https://github.com/Tskading/Password-Generator">
+                        <button class="b-text">
+                          Password Generator: <br />
+                          JavaScript
+                        </button>
+                      </a>
+                    </div>
 
-              <a href="https://github.com/Tskading/Password-Generator">
-                <button class="b-text">
-                  Password Generator: <br />
-                  JavaScript
-                </button>
-              </a>
-              
+                    <div class="project-c">
+                      <a href="https://tskading.github.io/Daily-Planner/"
+                        ><img src="images\dailyPlanner.png"
+                      /></a>
+                      <a href="https://github.com/Tskading/Daily-Planner">
+                        <button class="c-text">
+                          Daily Planner: <br />
+                          Local Storage
+                        </button>
+                      </a>
+                    </div>
+
+                    <div class="project-d">
+                      <a href="https://tskading.github.io/Pop-Quiz/"
+                        ><img src="images\popQuiz.png"
+                      /></a>
+                      <a href="https://github.com/Tskading/Pop-Quiz">
+                        <button class="d-text">
+                          Pop Quiz: <br />
+                          Dynamic HTML with JavaScript
+                        </button>
+                      </a>
+                    </div>
+
+                    <div class="project-e">
+                      <a href="https://tskading.github.io/Game-Meme/"
+                        ><img src="images\gamesScrnSht.png"
+                      /></a>
+                      <a href="https://github.com/Tskading/Password-Generator">
+                        <button class="e-text">
+                          Game & Gif: <br />
+                          Collaboration
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
             </div>
-
-            <div class="project-c">
-              <a href="https://tskading.github.io/Daily-Planner/"
-                ><img src="images\dailyPlanner.png"
-              /></a>
-              <a href="https://github.com/Tskading/Daily-Planner">
-                <button class="c-text">
-                  Daily Planner: <br />
-                  Local Storage
-                </button>
-              </a>
-            </div>
-
-            <div class="project-d">
-              <a href="https://tskading.github.io/Pop-Quiz/"
-                ><img src="images\popQuiz.png"
-              /></a>
-              <a href="https://github.com/Tskading/Pop-Quiz">
-                <button class="d-text">
-                  Pop Quiz: <br />
-                  Dynamic HTML with JavaScript
-                </button>
-              </a>
-            </div>
-
-            <div class="project-e">
-              <a href="https://tskading.github.io/Game-Meme/"
-                ><img src="images\gamesScrnSht.png"
-              /></a>
-              <a href="https://github.com/Tskading/Password-Generator">
-                <button class="e-text">
-                  Game & Gif: <br />
-                  Collaboration
-                </button>
-              </a>
-            </div>
-          </div>
+          </section>
         </div>
-      </section>
+      </div>
 
       <!-- 'contact-me' container -->
-      <section id="contact-me">
-        <aside>
-          <h2>Contact Me</h2>
-        </aside>
+      <div class="row">
+        <div class="col-sm-12">
+          <section id="contact-me">
+            <div class="row mt-4">
+              <div class="col-sm-2">
+                <aside class="text-left">
+                  <h2 class="asideTitle">Contact Me</h2>
+                </aside>
+              </div>
 
-        <!-- individual divs for different contact links. 
+              <!-- individual divs for different contact links. 
               Note: mailto is not opening in my browser, need to test on another computer... -->
+              <div class="col-sm-10">
+                <div class="asideBar contact-container">
+                  <div class="email">
+                    <a
+                      href="mailto: tskading@gmail.com?subject = Introduction = Message"
+                      >Tskading@gmail.com</a
+                    >
+                  </div>
 
-        <div class="contact-container">
-          <div class="email">
-            <a
-              href="mailto: tskading@gmail.com?subject = Introduction = Message"
-              >Tskading@gmail.com</a
-            >
-          </div>
+                  <div class="github">
+                    <a href="https://github.com/Tskading">Github</a>
+                  </div>
 
-          <div class="github">
-            <a href="https://github.com/Tskading">Github</a>
-          </div>
+                  <div class="phonenumber">
+                    <a href="#">512-619-3491</a>
+                  </div>
 
-          <div class="phonenumber">
-            <a href="#">512-619-3491</a>
-          </div>
+                  <div class="spotify">
+                    <a
+                      href="https://open.spotify.com/user/7rqb6tknhd780o8gs7ap5g7wq?si=Z0UfA4JPRwmUNjYjg6JJtA"
+                      >Spotify</a
+                    >
+                  </div>
 
-          <div class="spotify">
-            <a
-              href="https://open.spotify.com/user/7rqb6tknhd780o8gs7ap5g7wq?si=Z0UfA4JPRwmUNjYjg6JJtA"
-              >Spotify</a
-            >
-          </div>
-
-          <div class="linkedIn">
-            <a href="https://www.linkedin.com/in/thomas-kading/"
-              >LinkedIn</a
-            >
-          </div>
+                  <div class="linkedIn">
+                    <a href="https://www.linkedin.com/in/thomas-kading/"
+                      >LinkedIn</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
-
+      </div>
       <!-- resume container -->
-      <section id="resume">
-        <aside>
-          <h2>Resume</h2>
-        </aside>
-
-        <!-- link to resume -->
-        <a href="ThomasKadingResume.pdf">Resume</a>
-      </section>
+      <div class="row">
+        <div class="col-sm-12">
+          <section id="resume">
+            <div class="row mt-4">
+              <div class="col-sm-2">
+            <aside class="text-left">
+              <h2 class="asideTitle">Resume</h2>
+            </aside>
+          </div>
+          <div class="col-sm-10">
+            <!-- link to resume -->
+            <a class="asideBar" href="ThomasKadingResume.pdf">Resume</a>
+          </div>
+          </div>
+          </section>
+        </div>
+      </div>
     </main>
 
     <!-- footer container -->
