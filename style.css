@@ -89,16 +89,9 @@ Used z-index to keep it behind nav links when screen size changes. */
 
 /* aligns text within the aside - commented out unused element*/
 aside {
-  /* display: flex; */
   width: 100%;
-  /* border-right: 3px;
-  margin-right: 10px; */
   color: #31343d;
 }
-
-/* .workCont {
-  padding: 0px 40px 20px 40px;
-} */
 
 /* syling for about me paragraph */
 #about-me p {
@@ -107,14 +100,11 @@ aside {
 }
 /* enables  flex and sets formating for 'about me' section*/
 #about-me {
-  /* display: flex; */
   flex-direction: row;
-  /* padding: 0px 40px 20px 40px; */
 }
 
 /* style for whole work 'container' */
 .projects {
-  /* display: flex; */
   flex-direction: row;
   margin-left: 5px;
 }
@@ -135,10 +125,7 @@ object-fit: cover;
 .project-a {
     
     border: 3px solid #92ccce;
-    /* width: 88%; */
     height: 400px;
-    /* background-image: url("images\gamesScrnSht.png"); */
-    /* background: cover; */
 }
 
 
@@ -253,14 +240,7 @@ object-fit: cover;
 
 /* flex and display for 'contact me' elements */
 #contact-me {
-  /* display: flex; */
   flex-direction: row;
-  /* padding: 20px; */
- }
-
- /* used to align vertical lines with all elements when in non-mobile mode */
- #contact-me h2 {
-   /* margin-right: 8px; */
  }
 
  .contact-container {
@@ -280,9 +260,7 @@ object-fit: cover;
  
 /* styling and flex for rseume section  */
 #resume {
-  /* display: flex; */
   flex-direction: row;
-  /* padding: 14px; */
 }
 
 /* styling for link */
